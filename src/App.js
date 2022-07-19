@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import 'bulma/css/bulma.min.css'
+
 
 function App() {
   return <BrowserRouter>
