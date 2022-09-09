@@ -1,8 +1,9 @@
 ## React Basics Test
 
-The following test is about to prove basic knowledgement in ReactJS.
+The following test is about to prove basic acknowledgement in ReactJS
 
 Please
+---
 - You should don't install any extra library without the current in package.json
 - Be sure to read the package.json details
 - Not requiered but is a plus if you creates a custom hook instead to use the current into the screens
