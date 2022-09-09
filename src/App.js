@@ -18,7 +18,17 @@ function App() {
         element={
           <>
             <h1>CODE REACT TEST</h1>
-            <Link to={"1"}>Start</Link>
+            <h4>The following test is about to prove basic acknowledgement in ReactJS</h4>
+            <h3>Please:</h3>
+            <li>Don't install any extra library without the current in package.json</li>
+            <li>Be sure to read the package.json details</li>
+            <li>Be sure of using the current features from JS</li>
+            <li>Feel free to create any numbers of file as you need</li>
+            <li>Be sure of using Declarative programming paradigm in all the ways as you can</li>
+            <li>Not requiered but is a plus if you creates a custom hook instead to use the current into the screens</li>
+            <li><b>DO NOT </b> push your changes to <b>MASTER</b>, instead start a new branch and creates a pull request</li>
+            <br/>
+            <Link to={"1"}>START</Link>
           </>
         }
       />
