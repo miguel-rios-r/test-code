@@ -8,7 +8,7 @@ Please
 - Be sure to read the package.json details
 - Not requiered but is a plus if you creates a custom hook instead to use the current into the screens
 - Be sure of using the current features from JS
-- Feel free to create any numbers of file as you needs
+- Feel free to create any numbers of file and directories as you need
 - Be sure of using *Declarative programming paradigm* in all the ways as you can
 
 Build from Template for ReactJS project
