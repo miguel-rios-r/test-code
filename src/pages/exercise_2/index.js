@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react' 
 import { useNavigate } from 'react-router-dom'
-import {AllCharacters} from "./components/Characters";
+import Characters from './components/Characters';
+//import Characters from "./components/Characters";
 export default function Exercice2 (){
 
   const navigate = useNavigate()
@@ -46,8 +47,11 @@ export default function Exercice2 (){
 
   return(
     <>
+    
       <div className="container">
-        <AllCharacters allCharacters/>
+      <h1>matenme</h1>
+        //revisar
+        <Characters allCharacters={allCharacters}/>
       </div>
     </>
   )

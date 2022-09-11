@@ -9,7 +9,6 @@ import {
 import Exercice1 from "./pages/exercise_1";
 import Exercice2 from "./pages/exercise_2";
 
-
 function App() {
   return <BrowserRouter>
     <Routes>
@@ -44,6 +43,7 @@ function App() {
           <Exercice2/>
         }
       />
+      
       <Route
         path="*"
         element={
