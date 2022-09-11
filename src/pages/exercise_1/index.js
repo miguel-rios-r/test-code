@@ -17,7 +17,7 @@ export default function Exercice1 (){
       <li> React features implementations</li>
       <li> Files namming</li>
       <br/>
-      <button onClick={ () => navigate("2") }>Go to exercice 2</button>
+      <button onClick={ () => navigate("/2") }>Go to exercice 2</button>
     </>
   )
 
