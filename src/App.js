@@ -43,7 +43,6 @@ function App() {
           <Exercice2/>
         }
       />
-      
       <Route
         path="*"
         element={

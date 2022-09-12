@@ -1,5 +1,6 @@
 import React from "react";
-const Characters=({allCharacters=[]})=>{
+
+const Detail= ({allCharacters=[]}) =>{
     return(
         <div className="row">
             {allCharacters.map((item,index)=>(
@@ -17,6 +18,17 @@ const Characters=({allCharacters=[]})=>{
                 ))}
         </div>
     )
+    
+    /*return(
+        <div>
+            <img src={item.image} alt="" />
+            <h5 className="card-title">{item.id}. {item.name}</h5>
+            <p>Species:{item.species}</p>
+            <p>Location:{item.location.name}</p>
+            <p>Location:{item.origen}</p>
+            <p>Location:{item.gender}</p>
+            <p>Location:{item.status}</p>
+        </div>
+    )*/
 }
-
-export default Characters
+export default Detail
